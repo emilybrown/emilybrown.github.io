@@ -1,0 +1,44 @@
+body {
+  	background: url("https://images.unsplash.com/photo-1428765048792-aa4bdde46fea?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1350");
+	background-size: cover;
+    background-color: #ccc;
+    font-family: Helvetica, sans-serif;
+    color: #535353;
+
+}
+
+h1{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 13px;
+}
+
+#slogan{
+	font-family: georgia, serif;
+	font-style: italic;
+}
+
+.resumeandfolio{
+	font-weight: bold;
+
+}
+
+ul {
+	color:#535353;
+	font-size: 13px;
+
+	}
+
+a {
+	text-decoration: none;
+	color: #1abfc5;
+	font-family: georgia, serif;
+	font-style: italic;
+}
+
+a:hover {
+	color: #000;
+}
