@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+    background-color: #2B2B2B;
+    font-size: 16px; /*1em = 16px*/
+    line-height: 1.5;
+    color: #535353;
+
+}
+
+header {
+    background-color: #2B2B2B;
+    padding: 1em 0 0 2.4em;
+}
+
+nav {
+	background-color: #2B2B2B;
+    padding: 1.2em 0;
+}
+
+nav a:link{
+
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size:0.7em;
+	color: #1abfc5;
+	padding: 0 2% 2% 0;
+
+	}
+
+
+main {
+
+
+}
+
+footer {
+	background-color: #2B2B2B;
+	padding: 1.2em;
+	color: #fff;
+	font-size: 0.8em;
+	text-align: center;
+	}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-weight: 300;
+	color: #FFF;
+	font-size: 2.5em;
+	padding-bottom: 0.2em;
+}
+
+h2, h3, h4{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+h2 {
+	font-size: 1.1em;
+	padding-bottom: 0.5em;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+
+ul, ol {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	padding-left: 1.2em;
+	color:#535353;
+}
+
+
+a {
+	text-decoration: none;
+	color: #1abfc5;
+}
+
+a:hover { 
+    color: #ccc;
+}
+
+img {
+	width:100%;
+}
+
+img:hover{
+
+}
+label{
+
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size:0.7em;
+	color: #1abfc5;
+	padding: 3% 2% 2% 0;
+	display: none;
+
+	}
+
+.other {
+    background-color: rgba(255,255,255,0.9);
+    border: 1px black solid;
+    padding: 2%;
+    margin: 0 1%;
+    float: left;
+    width: 31%;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+#wrapper{
+	margin: 0 auto;
+}
+
+
+#two_column {
+	background: url("https://images.unsplash.com/photo-1428765048792-aa4bdde46fea?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1350");
+	background-size: cover;
+	padding: 2em 1.2em;
+}
+
+#left{
+    background-color: rgba(255,255,255,0.9);
+    border: 1px black solid;
+    padding: 2%;
+    margin: 0 1%;
+    float: left;
+    width: 31%;
+
+}
+
+
+#toggle {
+	display: none;
+
+}
+
+
+@media only screen and (min-width: 1300px) {
+
+	#left {
+		height: 500px;
+
+	}
+
+	.other {
+		height: 500px;
+	}
+
+	}
+
+
+@media only screen and (max-width: 1299px) {
+
+	#left {
+		height: 400px;
+
+	}
+
+	.other {
+		height: 400px;
+	}
+}
+
+
+@media only screen and (max-width: 660px) {
+
+nav {
+	display: none;
+}
+
+nav a:link{
+	display: block;
+	padding: 3% 0 3% 0;
+	border-bottom: 1px solid #222;
+}
+
+label {
+	display: block;
+}
+
+#toggle:checked + nav {
+	display:block;
+
+}
+
+.other {
+    background-color: rgba(255,255,255,0.9);
+    border: 1px black solid;
+    padding: 2%;
+    margin: 2% 1%;
+    float: left;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+#left{
+    background-color: rgba(255,255,255,0.9);
+    border: 1px black solid;
+    padding: 2%;
+    margin: 2% 1%;
+    float: left;
+    width: 100%;
+    height: auto;
+
+}
+
+
+}
+
+
+
+
+
